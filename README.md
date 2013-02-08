@@ -20,6 +20,10 @@ The application's business logic lives under that folder. It is usually separate
 
 The `src/php/` folder must be added to PHP's `include_path` for the application to work in the intended way. This task is usually taken care of by `public/index.php`.
 
+### `data/`
+
+Any files required by the application which are not source code can be left here. Typically, the application settings are to be found under `data/environment`, the templates under `data/pages/`, etc.
+
 ### `test/`
 
 The unit tests and other testing facilities are stored in the `test/` folder.
