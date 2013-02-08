@@ -1,6 +1,6 @@
 # The Eix documentation and sample website
 
-This Eix web application, available at http://eix.nohex.com/, serves both the purpose of documenting and showcasing [Eix]()'s capabilities, and as an example of how to build Eix applications.
+This Eix web application, available at http://eix.nohex.com/, serves the purposes of both documenting and showcasing [Eix]()'s capabilities, and as an example of how to build Eix applications.
 
 Feel free to peruse the source code to get acquainted with Eix's philosophy.
 
