@@ -8,7 +8,7 @@ Feel free to peruse the source code to get acquainted with Eix's philosophy.
 
 Eix applications are organised in a folder structure that facilitates separation of concerns.
 
-For instance, in order to deploy an Eix application in production, only the `public/`, `src/` and `system/` folders are needed.
+For instance, in order to deploy an Eix application in production, only the `public/`, `data/`, `src/` and `system/` folders are needed. The latter can even be deployed separately.
 
 ### `public/`
 
