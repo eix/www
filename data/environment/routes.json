@@ -1,0 +1,20 @@
+[
+	{
+		"uri": "/(\\w+)/(\\w+)/?",
+		"responder": "\\Nohex\\Eix\\Core\\Responders\\Http\\Page",
+		"section": 1,
+		"page": 2
+	},
+	{
+		"uri": "/(\\w+)/?",
+		"responder": "\\Nohex\\Eix\\Core\\Responders\\Http\\Page",
+		"section": 1,
+		"page": "index"
+	},
+	{
+		"uri": "/",
+		"responder": "\\Nohex\\Eix\\Core\\Responders\\Http\\Page",
+		"section": "home",
+		"page": "index"
+	}
+]

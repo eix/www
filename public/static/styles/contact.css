@@ -1,0 +1,60 @@
+code {
+	font-family: Inconsolata;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	display: none;
+}
+
+label {
+	display: block;
+	width: 155px;
+	float: left;
+	clear: left;
+	font-size: 75%;
+	margin-right: 10px;
+}
+
+dfn {
+	display: block;
+	margin-left: 140px;
+	font-size: 80%;
+}
+
+.actions {
+	padding: 0 2em 0 0;
+}
+
+.actions button {
+	float: right;
+	font-size: 120%;
+}
+
+.message {
+	border: 1px solid #FF9955;
+	background-color: rgba(255, 153, 85, .05);
+	padding: 1em;
+}
+
+.message blockquote {
+	margin: 1em;
+	font-family: Inconsolata, monospace;
+}
+
+.warning {
+	border: 1px solid #FF9955;
+	background-color: rgba(255, 153, 85, .05);
+	padding: 1em;
+	color: red;
+	margin-bottom: 1em;
+}
+
+input, textarea, select {
+	width: 300px;
+}

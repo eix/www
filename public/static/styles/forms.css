@@ -1,0 +1,86 @@
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset .field {
+	margin: 0 0 1em 150px;
+}
+
+legend {
+	display: none;
+}
+
+label {
+	display: block;
+	width: 135px;
+	margin-left: -150px;
+	float: left;
+	clear: left;
+	margin-right: 10px;
+	text-align: right;
+	color: #FF9955;
+}
+
+.invalid label {
+	color: red;
+}
+
+label.inline {
+	display: inline;
+	width: auto;
+	float: none;
+	margin-left: .5em;
+	text-align: left;
+}
+
+input.auxiliary {
+	margin-left: 1em;
+}
+
+dfn {
+	display: block;
+	margin-left: 140px;
+	font-size: 80%;
+}
+
+form button {
+	font-size: 100%;
+}
+
+input, textarea, select {
+	font-size: 120%;
+	font-family: Inconsolata, monospace;
+	border: 1px solid rgba(255, 153, 85, .23);
+	padding: .3em;
+	border-radius: .25em;
+}
+
+.invalid input,
+.invalid textarea {
+	border-color: rgba(255, 0, 0, .23);
+}
+
+textarea {
+	width: 300px;
+	max-width: 300px;
+	height: 150px;
+}
+
+input:focus,
+textarea:focus {
+	border-color: #FF9955;
+}
+
+.invalid input:focus,
+.invalid textarea:focus {
+	border-color: red;
+}
+
+.invalid ul.validation {
+	font-size: 80%;
+	color: red;
+	margin-bottom: 1em;
+	list-style: none;
+}

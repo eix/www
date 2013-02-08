@@ -1,0 +1,109 @@
+#content {
+	position: relative; /* so that children can be positioned in it */
+	min-height: 350px;
+}
+
+#content a {
+	border-bottom: 1px solid rgba(255, 153, 85, 0.6);
+}
+
+#content a:hover {
+	border-color: black;
+}
+
+#content img.fradera_inline {
+	padding-top: 1px;
+}
+
+#content h2 {
+	color: #FF9955;
+	font-size: 150%;
+	font-weight: bold;
+	margin: 1em 0 .35em 0;
+	letter-spacing: -0.04em;
+	line-height: 1em;
+}
+
+#content p {
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+.end_floats {
+	float: none;
+	clear: both;
+	height: 0;
+}
+
+#content .notice,
+#content .warning,
+#content .error {
+	padding: 1em;
+	margin-bottom: 1em;
+	border: 1px solid transparent;
+	color: black;
+	border-radius: .5em;
+}
+
+#content .error {
+	border-color: red;
+	background-color: rgba(255, 0, 0, .23);
+}
+
+#content .warning {
+	border-color: yellow;
+	background-color: rgba(255, 255, 0, .23);
+}
+
+#content .notice {
+	border-color: #55d400;
+	background-color: rgba(255, 153, 85, .23);
+}
+
+#content .bottom_note {
+	padding: 1em;
+	margin: 1em 0 1em 0;
+	background-color: rgba(255, 153, 85, .23);
+	border-radius: .3em
+}
+
+#error-message {
+	font-size: 135%;
+}
+
+#content fieldset {
+	border: none;
+}
+
+
+ul.nav.top {
+	margin: 2em 0 3em 0;
+}
+
+ul.nav.bottom {
+	margin-top: 1em;
+	float: left;
+}
+
+ul.nav {
+	list-style: none;
+	text-align: center;
+}
+
+ul.nav li {
+	display: inline-block;
+	margin: 0 .23em 0 .23em;
+}
+
+ul.nav.top li a {
+	font-size: 18pt !important;
+}
+
+ul.nav li a {
+	padding: .1em .5em;
+	border-radius: .2em;
+}
+
+ul.nav li a:hover {
+	background-color: rgba(255, 153, 85, .23);
+}

@@ -1,0 +1,111 @@
+div.actions {
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+div.actions a {
+	width: 100px;
+	text-align: center;
+	padding: .53em;
+}
+
+div.actions,
+form.actions,
+fieldset.actions.top {
+	font-size: 80%;
+}
+
+form.actions,
+fieldset.actions {
+	border: none;
+	margin: 1em 0 1em 0;
+	text-align: right;
+}
+
+fieldset.actions.top {
+	margin: 3em 0 0 0;
+	text-align: left;
+}
+
+fieldset.actions .action {
+	margin: 0 1em 0 0;
+	text-align: center;
+}
+
+form.actions {
+	font-size: 80%;
+}
+
+a.action,
+a.action:hover {
+	display: inline-block;
+	border: none !important;
+}
+
+button.cancel,
+.action.cancel {
+	background-color: rgba(255, 0, 0, .23);
+	color: red;
+}
+
+button.cancel:hover,
+.action.cancel:hover {
+	background-color: red;
+}
+
+td.actions a,
+.action,
+button {
+	font-weight: normal;
+	background-color: rgba(255, 153, 85, .23);
+	color: #FF9955;
+	border-radius: 4px;
+	padding: .5em;
+	border: none;
+}
+
+.action,
+button {
+	width: 100px;
+}
+
+.notice fieldset.actions,
+.warning fieldset.actions,
+.error fieldset.actions {
+	margin: 1em 0 0 0;
+}
+
+td.actions .separator {
+	margin-left: .56em;
+}
+
+td.actions a {
+	font-size: 80%;
+	padding: .2em .5em;
+}
+
+.action {
+	margin-right: 1em;
+}
+
+td.actions a:hover,
+.action:hover,
+button:hover {
+	background: #FF9955;
+	color: black;
+}
+
+td.actions a[disabled],
+td.actions a[disabled]:hover,
+.action[disabled],
+.action[disabled]:hover,
+button[disabled]:hover,
+button[disabled] {
+	background: rgba(255, 153, 85, .23);
+	color: rgba(255, 153, 85, .46);;
+}
+
+.actions .separator {
+	display: none;
+}

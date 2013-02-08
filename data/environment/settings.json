@@ -1,0 +1,25 @@
+{
+	"application": {
+		"id": "eix-www",
+		"name": "Eix sample application"
+	},
+	"locale": {
+		"default": "en"
+	},
+	"routes": {
+		"defaults": {
+			"responderClass": "Eix\\Responders\\Http\\Page",
+			"section": "home",
+			"page": "index",
+			"method": "GET"
+		}
+	},
+	"resources": {
+		"pages": {
+			"location": "../data/pages"
+		},
+		"templates": {
+			"response": "../data/resources/response.xml"
+		}
+	}
+}

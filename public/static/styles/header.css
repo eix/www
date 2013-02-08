@@ -1,0 +1,18 @@
+#header {
+	margin-top: 4em;
+}
+
+#header #logo a {
+	background: url('/static/images/eix_logo-header.png') no-repeat;
+	width: 194px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+#header #logo a h1 {
+	display: none;
+}
+
+#footer .copyright {
+}
