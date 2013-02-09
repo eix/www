@@ -8,10 +8,10 @@ pushd ~/app-root/repo
 mv public php 
 ln -s src/php/main misc
 ln -s src/php/lib libs
-mv system/apache/htaccess php/.htaccess
+mv .openshift/htaccess php/.htaccess
 
 # Delete unneeded folders
 rm -rf test
-rm -rf system
+rm -rf .openshift
 
 popd
