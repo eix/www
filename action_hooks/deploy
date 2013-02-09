@@ -1,0 +1,17 @@
+#!/bin/bash
+
+export SERVER_ENV='pro'
+
+pushd ~/app-root/repo
+
+# Move files where they are expected.                                                               
+mv public php 
+ln -s src/php/main misc
+ln -s src/php/lib libs
+mv system/apache/htaccess php/.htaccess
+
+# Delete unneeded folders
+rm -rf test
+rm -rf system
+
+popd
