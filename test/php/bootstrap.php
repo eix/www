@@ -1,10 +1,12 @@
 <?php
 
-// Define the current environment as TEST.
-$_SERVER['SERVER_ENV'] = 'TEST';
+// Add the tests folder into the include path.
+set_include_path(join(PATH_SEPARATOR, array(
+	// Append the tests.
+	dirname(__FILE__) . '/../../main',
+	// Append the original include path.
+	get_include_path()
+)));
 
-// Import Eix.
-require 'src/php/main/bootstrap.php';
-
-// Set up an autoloader for the test classes root path.
-\Nohex\Eix\Core\ClassLoader::addClassPath(__DIR__);
+// The tests use Eix's class loader to find and load classes.
+require 'Nohex/Eix/bootstrap.php';
