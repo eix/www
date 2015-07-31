@@ -1,0 +1,52 @@
+{
+  "name": "eix/www",
+  "description": "Eix framework showcase web application",
+  "type": "project",
+  "keywords": [
+    "eix",
+    "framework",
+    "showcase",
+    "demo"
+  ],
+  "homepage": "http://eix.0h.io/",
+  "time": "2013-01-01",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Noé",
+      "email": "github@0h.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/eix/www",
+    "source": "https://github.com/eix/www"
+  },
+  "config": {
+    "vendor-dir": "src/php/lib"
+  },
+  "require": {
+    "eix/core": "dev-master"
+  },
+  "require-dev": {
+    "phing/phing": "*",
+    "phpunit/phpunit": "~4.7",
+    "phplint/phplint": "*",
+    "phploc/phploc": "*",
+    "pdepend/pdepend": "*",
+    "phpmd/phpmd": "*",
+    "sebastian/phpcpd": "*",
+    "mayflower/php-codebrowser": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Eix\\Sample\\": "src/php/main"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Eix\\Sample\\": "test/php/main"
+    }
+  },
+  "prefer-stable": true
+}

@@ -1,1 +1,5 @@
-build
+src/php/lib/*
+build/
+.idea/
+composer.lock
+public/router.php

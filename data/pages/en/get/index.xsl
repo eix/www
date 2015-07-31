@@ -11,11 +11,12 @@
 		<h2>Get it</h2>
 		<p>
 			You can get Eix, ready to drop in your project, as a Phar or from
-			Composer.
+			<a href="http://packagist.com/eix/core">Composer</a>.
 		</p>
 
 		<p>
-			You can also fork the project on GitHub.
+			You can also fork the project on
+			<a href="https://github.com/eix/core">GitHub</a>.
 		</p>
 
 		<h2>See it</h2>

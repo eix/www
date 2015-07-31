@@ -1,0 +1,1 @@
+php -S localhost -t public public/router.php

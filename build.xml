@@ -39,13 +39,6 @@
 		<delete dir="${buildDir}/*" />
 	</target>
 
-	<target name="deps"
-		description="Make sure dependencies can be found by the app."
-	>
-		<!-- Deploy dependencies -->
-		<copy file="${deps.eix}" todir="${targetSourceDir}/lib" />
-	</target>
-
 	<target name="check" depends="prepare">
 		<phpcodesniffer
 			standard="PSR2"
@@ -57,7 +50,7 @@
 		/>
 	</target>
 
-	<target name="test" depends="deps">
+	<target name="test">
 		<phpunit
 			configuration="${testDir}/phpunit.xml"
 			printsummary="true"
